@@ -1,0 +1,2210 @@
+{
+  "Id": "00000000-0000-0000-0000-000000000000",
+  "IsTestLoan": true,
+  "Property": {
+    "PropertyValueEstimate": 0,
+    "PropertyValue": 0,
+    "PropertyValueForMaxClaimAmount": 0,
+    "IsPud": true,
+    "PudName": "string",
+    "StateFK": "string",
+    "ApnNumber": "string",
+    "LegalDescription": "string",
+    "BriefLegalDescription": "string",
+    "CensusTract": "string",
+    "MsaMdCode": "string",
+    "LivingUnits": 0,
+    "YearBuilt": 0,
+    "LivingAreaAboveGrade": 0,
+    "HasWell": true,
+    "HasSeptic": true,
+    "IsRuralProperty": true,
+    "IsInDecliningMarket": true,
+    "LegalVesting": "string",
+    "PropertyType": {
+      "Name": "string",
+      "Id": 0
+    },
+    "Condominium": {
+      "ProjectName": "string"
+    },
+    "ManufacturedHome": {
+      "Manufacturer": "string",
+      "Model": "string",
+      "Year": 0,
+      "Vin": "string",
+      "IsNew": true
+    },
+    "Address": {
+      "IsValidated": true,
+      "Address1": "string",
+      "Address2": "string",
+      "HouseNumber": "string",
+      "StreetName": "string",
+      "StreetSuffix": "string",
+      "Zip": "string",
+      "Zip4": "string",
+      "City": "string",
+      "StateFk": "string",
+      "PreDirection": {
+        "Name": "string",
+        "Id": 0
+      },
+      "PostDirection": {
+        "Name": "string",
+        "Id": 0
+      },
+      "County": {
+        "Id": 0,
+        "Name": "string"
+      },
+      "SimpleAddress": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      }
+    },
+    "Insurance": {
+      "IsFloodInsuranceRequired": true,
+      "FloodZoneText": "string"
+    },
+    "Trust": {
+      "NameOfTrust": "string",
+      "DateOfTrust": "2022-10-24T22:31:12.135Z",
+      "IsRevocable": true,
+      "SettlorTextInSecurityInstrument": "string",
+      "DefaultSettlorText": "string",
+      "Type": {
+        "Name": "string",
+        "Id": 0
+      },
+      "Trustees": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "Name": "string",
+          "SecurityInstrumentSignature": "string",
+          "NoteSignature": "string"
+        }
+      ],
+      "Settlors": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "SignAs": "string",
+          "SignAsLine2": "string"
+        }
+      ]
+    },
+    "Estate": {
+      "LeaseholdExpiration": "2022-10-24T22:31:12.135Z",
+      "Type": {
+        "Name": "string",
+        "Id": 0
+      },
+      "RemainderMen": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "SignAs": "string",
+          "SignAsLine2": "string"
+        }
+      ]
+    },
+    "PropertyValueAppraised": 0,
+    "RemainingEconomicLife": 0,
+    "FloodInsurance": {
+      "IsFloodInsuranceRequired": true,
+      "Zone": "string"
+    }
+  },
+  "HECMRefi": {
+    "OriginalMaxClaimAmount": 0,
+    "CurrentPrincipalLimit": 0,
+    "OriginalMip": 0,
+    "OriginalClosingDate": "2022-10-24T22:31:12.135Z",
+    "OriginalHecmFhaCaseNumber": "string"
+  },
+  "Purchase": {
+    "PurchasePrice": 0,
+    "Sellers": [
+      {
+        "Person": {
+          "FirstName": "string",
+          "LastName": "string",
+          "Function": "string",
+          "MiddleName": "string",
+          "NameSuffix": "string"
+        },
+        "Company": "string",
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "Address": {
+          "Address1": "string",
+          "Address2": "string",
+          "Zip": "string",
+          "City": "string",
+          "StateFk": "string",
+          "Zip4": "string"
+        },
+        "Communication": {
+          "Phone": "string",
+          "PhoneExt": "string",
+          "Mobile": "string",
+          "Email": "string"
+        }
+      }
+    ],
+    "ListingAgent": {
+      "Person": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Company": "string",
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "SellingAgent": {
+      "Person": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Company": "string",
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "HasIdentityOfInterest": true,
+    "RelationshipWithSeller": "string",
+    "IsFirstTimeHomeBuyer": true
+  },
+  "Calculation": {
+    "IsCalculationLocked": true,
+    "RepairSetAside": 0,
+    "Lesa": 0,
+    "ExpectedRateDate": "2022-10-24T22:31:12.135Z",
+    "MarginOrRate": 0,
+    "ExpectedRate": 0,
+    "InitialRate": 0,
+    "RateCapOverLifetime": 0,
+    "MipRate": 0,
+    "MipToBePaidToHUD": 0,
+    "MipAmount": 0,
+    "OriginationFeeAmount": 0,
+    "MaxClaimAmount": 0,
+    "PrincipalLimitFactorAdjustment": 0,
+    "NearestAgeYoungest": 0,
+    "PrincipalLimit": 0,
+    "TandISetAside": 0,
+    "Additional10PercentIplUsage": 0,
+    "MonthlyServicingFee": 0,
+    "ServicingFeeSetAside": 0,
+    "OtherClosingCosts": 0,
+    "ClosingCosts": 0,
+    "ClosingCostsNetCredits": 0,
+    "PocAmount": 0,
+    "CreditIn802": 0,
+    "CreditsAndCures": 0,
+    "CashDisbursement": 0,
+    "TermMonthlyDisbursement": 0,
+    "TermDuration": 0,
+    "TermFirstYearMonthlyDisbursement": 0,
+    "TermReserve": 0,
+    "Loc": 0,
+    "PurchaseShortfall": 0,
+    "LocFirstYear": 0,
+    "AvailableFunds": 0,
+    "NetPrincipalLimit": 0,
+    "Upb": 0,
+    "MortgageCoverage": 0,
+    "LendersTitlePolicyLimit": 0,
+    "OwnersTitlePolicyLimit": 0,
+    "MandatoryObligations": 0,
+    "WireAmount": 0,
+    "Fees": {
+      "Items": [
+        {
+          "IsDeleted": true,
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "IsMip": true,
+          "IsServiceProviderSelectedByBorrower": true,
+          "HudId": 0,
+          "GfeAmount": 0,
+          "Name": "string",
+          "Provider": {
+            "Id": "00000000-0000-0000-0000-000000000000",
+            "Name": "string",
+            "ContactPerson": {
+              "FirstName": "string",
+              "LastName": "string",
+              "Function": "string",
+              "MiddleName": "string",
+              "NameSuffix": "string"
+            },
+            "Address": {
+              "Address1": "string",
+              "Address2": "string",
+              "Zip": "string",
+              "City": "string",
+              "StateFk": "string",
+              "Zip4": "string"
+            },
+            "BankRelation": {
+              "AbaNumber": "string",
+              "AccountNumber": "string",
+              "BankName": "string",
+              "AccountHolder": "string",
+              "City": "string",
+              "StateFk": "string",
+              "AccountType": {
+                "Name": "string",
+                "Id": 0
+              }
+            },
+            "Communication": {
+              "Phone": "string",
+              "PhoneExt": "string",
+              "Mobile": "string",
+              "Email": "string"
+            }
+          },
+          "Tolerance": {
+            "Name": "string",
+            "Id": 0
+          },
+          "FeeType": 0,
+          "BorrowerPaid": {
+            "Value": 0,
+            "PocValue": 0
+          },
+          "LenderPaid": {
+            "Value": 0,
+            "PocValue": 0
+          },
+          "BrokerPaid": {
+            "Value": 0,
+            "PocValue": 0
+          },
+          "SellerPaid": {
+            "Value": 0,
+            "PocValue": 0
+          },
+          "Cost": {
+            "Value": 0,
+            "PocValue": 0
+          },
+          "ExcludeFromWire": true,
+          "IsFinanceCharge": true
+        }
+      ]
+    },
+    "ExpectedLocGrowthRate": 0,
+    "InitialLocGrowthRate": 0,
+    "TermDisbursementPriority": {
+      "Name": "string",
+      "Id": 0
+    },
+    "InitialDisbursementLimit": 0,
+    "NonMandatoryObligations": 0,
+    "AvailableFundsFirstYear": 0,
+    "RateAdjustmentPeriodicCap": 0,
+    "RateFloor": 0
+  },
+  "Identification": {
+    "FhaCaseNumber": "string",
+    "FhaCaseNumberWithAdpCode": "string",
+    "LenderLoanNumber": "string",
+    "BrokerLoanNumber": "string",
+    "SettlementAgentLoanNumber": "string",
+    "ServicerLoanNumber": "string",
+    "SubServicerLoanNumber": "string",
+    "InvestorLoanNumber": "string",
+    "WarehouseLoanNumber": "string",
+    "MersMinNumber": "string",
+    "Uli": "string",
+    "CommonLoanName": "string",
+    "CompanyLoanIdentification": {
+      "CrmLoanId": "string",
+      "LosLoanId": "string",
+      "LeadSystemLoanId": "string",
+      "MobileAppLoanId": "string"
+    },
+    "SimpleId": 0
+  },
+  "Hud1Page1": {
+    "EarnestMoney": 0,
+    "LenderOrBrokerCure": 0,
+    "Items": [
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "HudId": 0,
+        "Text": "string",
+        "FromText": "string",
+        "ToText": "string",
+        "Amount": 0,
+        "CreditBy": {
+          "Name": "string",
+          "Id": 0
+        }
+      }
+    ],
+    "BrokerCredit": 0,
+    "BrokerCure": 0,
+    "LenderCredit": 0,
+    "LenderCure": 0
+  },
+  "Context": {
+    "FhaMortgageeNumber": "string",
+    "StateLicenseAgencies": [
+      {
+        "Name": "string",
+        "Id": 0
+      }
+    ],
+    "LoanOfficerCompanyName": "string",
+    "IsBrokeredLoan": true,
+    "IsPrincipalAgentLoan": true,
+    "CreatedDate": "2022-10-24T22:31:12.138Z",
+    "ModifiedDate": "2022-10-24T22:31:12.138Z",
+    "ApplicationTakenDate": "2022-10-24T22:31:12.138Z",
+    "CounselingCompletedDate": "2022-10-24T22:31:12.138Z",
+    "CounselingCertificateExpirationDate": "2022-10-24T22:31:12.138Z",
+    "CounselingAgencyHudId": 0,
+    "FaceToFaceMeetingDate": "2022-10-24T22:31:12.138Z",
+    "FhaCaseNumberDate": "2022-10-24T22:31:12.138Z",
+    "ClosingDate": "2022-10-24T22:31:12.138Z",
+    "ActualClosingDate": "2022-10-24T22:31:12.138Z",
+    "RepairStartTime": "2022-10-24T22:31:12.138Z",
+    "RepairCompleteDate": "2022-10-24T22:31:12.138Z",
+    "RescissionDate": "2022-10-24T22:31:12.138Z",
+    "FundingDate": "2022-10-24T22:31:12.138Z",
+    "ActualFundingDate": "2022-10-24T22:31:12.138Z",
+    "FirstMonthlyPaymentDate": "2022-10-24T22:31:12.138Z",
+    "FirstRateChangeDate": "2022-10-24T22:31:12.138Z",
+    "First12MonthDisbursementPeriodEndDate": "2022-10-24T22:31:12.138Z",
+    "MaturityDate": "2022-10-24T22:31:12.138Z",
+    "OriginationFeeGoesTo": {
+      "Name": "string",
+      "Id": 0
+    },
+    "LoanStatus": {
+      "Id": 0,
+      "Name": "string"
+    },
+    "Lender": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "Owner": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "Broker": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "Agent": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "Creator": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "LoanOfficer": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "UnderWriter": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "Signer": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "Language": {
+      "Name": "string",
+      "Id": 0
+    },
+    "ApplicationDocsDrawnDate": "2022-10-24T22:31:12.138Z",
+    "TrusteeForDot": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "SettlementAgent": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "Servicer": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "SubServicer": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "Investor": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "WarehouseLender": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "DocumentCustodian": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "BrokerRelationAccountExecutive": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "PaRelationAccountExecutive": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "ParentRelationAccountExecutive": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "ChildRelationAccountExecutive": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "CounselingCertificateNumber": "string",
+    "TeamLevel1": {
+      "Id": 0,
+      "Name": "string"
+    },
+    "TeamLevel2": {
+      "Id": 0,
+      "Name": "string"
+    },
+    "TeamLevel3": {
+      "Id": 0,
+      "Name": "string"
+    },
+    "CounselingMeetingType": {
+      "Name": "string",
+      "Id": 0
+    },
+    "LoAssistant": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "ReferringUser": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "LoanStatusHistory": [
+      {
+        "Status": {
+          "Name": "string",
+          "Id": 0
+        },
+        "TimeStamp": "2022-10-24T22:31:12.138Z"
+      }
+    ],
+    "LoanDocumentDates": {
+      "ProposalPrintedDate": "2022-10-24T22:31:12.138Z",
+      "ApplicationPrintedDate": "2022-10-24T22:31:12.138Z",
+      "RedisclosurePrintedDate": "2022-10-24T22:31:12.138Z",
+      "ClosingDocsPrintedDate": "2022-10-24T22:31:12.138Z",
+      "ApplicationScanStartDate": "2022-10-24T22:31:12.138Z",
+      "ApplicationScanCompletedDate": "2022-10-24T22:31:12.138Z",
+      "RedisclosureScanStartDate": "2022-10-24T22:31:12.138Z",
+      "RedisclosureScanCompletedDate": "2022-10-24T22:31:12.138Z",
+      "ClosingDocsScanStartDate": "2022-10-24T22:31:12.138Z",
+      "ClosingDocsScanCompletedDate": "2022-10-24T22:31:12.138Z"
+    },
+    "MortgageeLetter2108": {
+      "Name": "string",
+      "Id": 0
+    },
+    "ApplicationDocsSentToBorrowerDate": "2022-10-24T22:31:12.138Z",
+    "TitleInsurance": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string",
+      "ContactPerson": {
+        "FirstName": "string",
+        "LastName": "string",
+        "Function": "string",
+        "MiddleName": "string",
+        "NameSuffix": "string"
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "BankRelation": {
+        "AbaNumber": "string",
+        "AccountNumber": "string",
+        "BankName": "string",
+        "AccountHolder": "string",
+        "City": "string",
+        "StateFk": "string",
+        "AccountType": {
+          "Name": "string",
+          "Id": 0
+        }
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      }
+    },
+    "CounselingCertificateSignedDate": "2022-10-24T22:31:12.138Z",
+    "ApplicationSignedDate": "2022-10-24T22:31:12.138Z",
+    "TeamLevel4": {
+      "Id": 0,
+      "Name": "string"
+    },
+    "ProgramDate": "2022-10-24T22:31:12.138Z",
+    "TransferToServicerDate": "2022-10-24T22:31:12.138Z"
+  },
+  "Borrowers": {
+    "Items": [
+      {
+        "Dob": "2022-10-24T22:31:12.138Z",
+        "IsPassedAway": true,
+        "IsDeleted": true,
+        "FirstName": "string",
+        "MiddleName": "string",
+        "LastName": "string",
+        "NameSuffix": "string",
+        "SSN": "string",
+        "Order": 0,
+        "Aka": "string",
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "IsHouseholdMember": true,
+        "YearsAtCurrentAddress": 0,
+        "MonthlyIncome": 0,
+        "RealEstateAssets": 0,
+        "Sex": {
+          "Name": "string",
+          "Id": 0
+        },
+        "SexCollectedMethod": {
+          "Name": "string",
+          "Id": 0
+        },
+        "MaritalStatus": {
+          "Name": "string",
+          "Id": 0
+        },
+        "Address": {
+          "Address1": "string",
+          "Address2": "string",
+          "Zip": "string",
+          "City": "string",
+          "StateFk": "string",
+          "Zip4": "string"
+        },
+        "Communication": {
+          "Phone": "string",
+          "PhoneExt": "string",
+          "Mobile": "string",
+          "Email": "string"
+        },
+        "Race": {
+          "AmericanIndianOrAlaskaNative": true,
+          "AmericanIndianOrAlaskaNativeExplanation": "string",
+          "AsianIndian": true,
+          "Chinese": true,
+          "Filipino": true,
+          "Japanese": true,
+          "Korean": true,
+          "Vietnamese": true,
+          "OtherAsian": true,
+          "OtherAsianExplanation": "string",
+          "BlackOrAfricanAmerican": true,
+          "NativeHawaiian": true,
+          "GuamanianOrChamorro": true,
+          "Samoan": true,
+          "OtherPacificIslander": true,
+          "OtherPacificIslanderExplanation": "string",
+          "White": true,
+          "Asian": true,
+          "NativeHawaiianOrOtherPacificIslander": true,
+          "IDoNotWishToProvideInformation": true,
+          "CollectionMethod": {
+            "Name": "string",
+            "Id": 0
+          }
+        },
+        "Ethnicity": {
+          "Mexican": true,
+          "PuertoRican": true,
+          "Cuban": true,
+          "OtherHispanicOrLatino": true,
+          "OtherHispanicOrLatinoExplanation": "string",
+          "NotHispanicOrLatino": true,
+          "IDoNotWishToProvideInformation": true,
+          "HispanicOrLatino": true,
+          "CollectionMethod": {
+            "Name": "string",
+            "Id": 0
+          }
+        },
+        "Declarations": {
+          "OutstandingJudgements": true,
+          "UnresolvedBankruptcy": true,
+          "PartyToLawsuit": true,
+          "DelinquentOnFederalDebt": true,
+          "PrimaryResidence": true,
+          "CoMakerOfNote": true,
+          "UsCitizen": true,
+          "PermanentResidentAlien": true,
+          "RequiredToBringMoneyToClosing": true,
+          "BorrowedMoney": true,
+          "IntentionToBuyFinancialProducts": true,
+          "FinancialProducts": "string",
+          "ExistingFhaLoan": true
+        },
+        "PoaOrGuardian": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "FirstName": "string",
+          "MiddleName": "string",
+          "MiddleInitial": "string",
+          "LastName": "string",
+          "IsNearestLivingRelative": true,
+          "Company": "string",
+          "FullName": "string",
+          "IsDeleted": true,
+          "Notes": "string",
+          "NoInformationReleaseAuthorization": true,
+          "ThirdPartyType": {
+            "Name": "string",
+            "Id": 0
+          },
+          "Address": {
+            "Address1": "string",
+            "Address2": "string",
+            "Zip": "string",
+            "City": "string",
+            "StateFk": "string",
+            "Zip4": "string"
+          },
+          "Communication": {
+            "Phone": "string",
+            "PhoneExt": "string",
+            "Mobile": "string",
+            "Email": "string"
+          },
+          "RelationShipType": {
+            "Name": "string",
+            "Id": 0
+          }
+        },
+        "AlternativeContact": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "FirstName": "string",
+          "MiddleName": "string",
+          "MiddleInitial": "string",
+          "LastName": "string",
+          "IsNearestLivingRelative": true,
+          "Company": "string",
+          "FullName": "string",
+          "IsDeleted": true,
+          "Notes": "string",
+          "NoInformationReleaseAuthorization": true,
+          "ThirdPartyType": {
+            "Name": "string",
+            "Id": 0
+          },
+          "Address": {
+            "Address1": "string",
+            "Address2": "string",
+            "Zip": "string",
+            "City": "string",
+            "StateFk": "string",
+            "Zip4": "string"
+          },
+          "Communication": {
+            "Phone": "string",
+            "PhoneExt": "string",
+            "Mobile": "string",
+            "Email": "string"
+          },
+          "RelationShipType": {
+            "Name": "string",
+            "Id": 0
+          }
+        },
+        "SecondaryAlternativeContact": {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "FirstName": "string",
+          "MiddleName": "string",
+          "MiddleInitial": "string",
+          "LastName": "string",
+          "IsNearestLivingRelative": true,
+          "Company": "string",
+          "FullName": "string",
+          "IsDeleted": true,
+          "Notes": "string",
+          "NoInformationReleaseAuthorization": true,
+          "ThirdPartyType": {
+            "Name": "string",
+            "Id": 0
+          },
+          "Address": {
+            "Address1": "string",
+            "Address2": "string",
+            "Zip": "string",
+            "City": "string",
+            "StateFk": "string",
+            "Zip4": "string"
+          },
+          "Communication": {
+            "Phone": "string",
+            "PhoneExt": "string",
+            "Mobile": "string",
+            "Email": "string"
+          },
+          "RelationShipType": {
+            "Name": "string",
+            "Id": 0
+          }
+        },
+        "Type": {
+          "Name": "string",
+          "Id": 0
+        },
+        "FinancialAssessmentIncomeHandling": {
+          "Name": "string",
+          "Id": 0
+        },
+        "PrimaryIdDocumentData": {
+          "DocumentNumber": "string",
+          "DocumentSubTypeFk": 0,
+          "IssueDate": "2022-10-24T22:31:12.138Z",
+          "ExpirationDate": "2022-10-24T22:31:12.138Z",
+          "IssuedBy": "string",
+          "StateFk": "string"
+        },
+        "SecondaryIdDocumentData": {
+          "DocumentNumber": "string",
+          "DocumentSubTypeFk": 0,
+          "IssueDate": "2022-10-24T22:31:12.138Z",
+          "ExpirationDate": "2022-10-24T22:31:12.138Z",
+          "IssuedBy": "string",
+          "StateFk": "string"
+        },
+        "FicoScore": 0,
+        "AvailableAssets": 0,
+        "IsSsnTin": true
+      }
+    ],
+    "Marriages": [
+      {
+        "Borrower1Id": "00000000-0000-0000-0000-000000000000",
+        "Borrower2Id": "00000000-0000-0000-0000-000000000000",
+        "FilingTaxesJointly": true
+      }
+    ],
+    "Borrower": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "FirstName": "string",
+      "LastName": "string",
+      "SSN": "string",
+      "Email": "string",
+      "Phone": "string",
+      "Mobile": "string"
+    },
+    "CoBorrower": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "FirstName": "string",
+      "LastName": "string",
+      "SSN": "string",
+      "Email": "string",
+      "Phone": "string",
+      "Mobile": "string"
+    },
+    "BankRelation": {
+      "AbaNumber": "string",
+      "AccountNumber": "string",
+      "BankName": "string",
+      "AccountHolder": "string",
+      "City": "string",
+      "StateFk": "string",
+      "AccountType": {
+        "Name": "string",
+        "Id": 0
+      }
+    },
+    "AlternativeContact": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "FirstName": "string",
+      "MiddleName": "string",
+      "MiddleInitial": "string",
+      "LastName": "string",
+      "IsNearestLivingRelative": true,
+      "Company": "string",
+      "FullName": "string",
+      "IsDeleted": true,
+      "Notes": "string",
+      "NoInformationReleaseAuthorization": true,
+      "ThirdPartyType": {
+        "Name": "string",
+        "Id": 0
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      },
+      "RelationShipType": {
+        "Name": "string",
+        "Id": 0
+      }
+    },
+    "SecondaryAlternativeContact": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "FirstName": "string",
+      "MiddleName": "string",
+      "MiddleInitial": "string",
+      "LastName": "string",
+      "IsNearestLivingRelative": true,
+      "Company": "string",
+      "FullName": "string",
+      "IsDeleted": true,
+      "Notes": "string",
+      "NoInformationReleaseAuthorization": true,
+      "ThirdPartyType": {
+        "Name": "string",
+        "Id": 0
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      },
+      "RelationShipType": {
+        "Name": "string",
+        "Id": 0
+      }
+    },
+    "DesignatedLegalContacts": [
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "FirstName": "string",
+        "MiddleName": "string",
+        "MiddleInitial": "string",
+        "LastName": "string",
+        "IsNearestLivingRelative": true,
+        "Company": "string",
+        "FullName": "string",
+        "IsDeleted": true,
+        "Notes": "string",
+        "NoInformationReleaseAuthorization": true,
+        "ThirdPartyType": {
+          "Name": "string",
+          "Id": 0
+        },
+        "Address": {
+          "Address1": "string",
+          "Address2": "string",
+          "Zip": "string",
+          "City": "string",
+          "StateFk": "string",
+          "Zip4": "string"
+        },
+        "Communication": {
+          "Phone": "string",
+          "PhoneExt": "string",
+          "Mobile": "string",
+          "Email": "string"
+        },
+        "RelationShipType": {
+          "Name": "string",
+          "Id": 0
+        }
+      }
+    ],
+    "NearestAgeOfYoungestBorrower": 0,
+    "DesignatedLegalContact1": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "FirstName": "string",
+      "MiddleName": "string",
+      "MiddleInitial": "string",
+      "LastName": "string",
+      "IsNearestLivingRelative": true,
+      "Company": "string",
+      "FullName": "string",
+      "IsDeleted": true,
+      "Notes": "string",
+      "NoInformationReleaseAuthorization": true,
+      "ThirdPartyType": {
+        "Name": "string",
+        "Id": 0
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      },
+      "RelationShipType": {
+        "Name": "string",
+        "Id": 0
+      }
+    },
+    "DesignatedLegalContact2": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "FirstName": "string",
+      "MiddleName": "string",
+      "MiddleInitial": "string",
+      "LastName": "string",
+      "IsNearestLivingRelative": true,
+      "Company": "string",
+      "FullName": "string",
+      "IsDeleted": true,
+      "Notes": "string",
+      "NoInformationReleaseAuthorization": true,
+      "ThirdPartyType": {
+        "Name": "string",
+        "Id": 0
+      },
+      "Address": {
+        "Address1": "string",
+        "Address2": "string",
+        "Zip": "string",
+        "City": "string",
+        "StateFk": "string",
+        "Zip4": "string"
+      },
+      "Communication": {
+        "Phone": "string",
+        "PhoneExt": "string",
+        "Mobile": "string",
+        "Email": "string"
+      },
+      "RelationShipType": {
+        "Name": "string",
+        "Id": 0
+      }
+    }
+  },
+  "Processing": {
+    "Appraisal": {
+      "AppraiserLicenseNumber": "string",
+      "AppraiserLicenseExpDate": "2022-10-24T22:31:12.139Z",
+      "AppraisalDate": "2022-10-24T22:31:12.139Z",
+      "ExpirationDate": "2022-10-24T22:31:12.139Z",
+      "AppraisedValue": 0,
+      "SiteValue": 0,
+      "ReplacementCost": 0,
+      "Completed": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "Appraiser": {
+        "Name": "string",
+        "Phone": "string",
+        "Email": "string",
+        "CompanyName": "string"
+      },
+      "Ordered": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "Received": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "AppraisedValueMinusLand": 0,
+      "ReplacementCostNew": 0,
+      "AppraisalOrderedDate": "2022-10-24T22:31:12.139Z",
+      "AppraisalReceivedDate": "2022-10-24T22:31:12.139Z",
+      "Scheduled": "2022-10-24T22:31:12.139Z",
+      "IsNotUsed": true
+    },
+    "AppraisalSecond": {
+      "AppraiserLicenseNumber": "string",
+      "AppraiserLicenseExpDate": "2022-10-24T22:31:12.139Z",
+      "AppraisalDate": "2022-10-24T22:31:12.139Z",
+      "ExpirationDate": "2022-10-24T22:31:12.139Z",
+      "AppraisedValue": 0,
+      "SiteValue": 0,
+      "ReplacementCost": 0,
+      "Completed": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "Appraiser": {
+        "Name": "string",
+        "Phone": "string",
+        "Email": "string",
+        "CompanyName": "string"
+      },
+      "Ordered": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "Received": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "AppraisedValueMinusLand": 0,
+      "ReplacementCostNew": 0,
+      "AppraisalOrderedDate": "2022-10-24T22:31:12.139Z",
+      "AppraisalReceivedDate": "2022-10-24T22:31:12.139Z",
+      "Scheduled": "2022-10-24T22:31:12.139Z",
+      "IsNotUsed": true
+    },
+    "Title": {
+      "EffectiveDate": "2022-10-24T22:31:12.139Z",
+      "ExpirationDate": "2022-10-24T22:31:12.139Z",
+      "Ordered": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "Received": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      },
+      "Completed": {
+        "Date": "2022-10-24T22:31:12.139Z",
+        "By": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        }
+      }
+    },
+    "FloodCertificate": {
+      "IsSelected": true,
+      "Zone": "string",
+      "CommunityName": "string",
+      "CommunityParticipationFip": true
+    },
+    "CreditReports": {
+      "Items": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ReportDate": "2022-10-24T22:31:12.139Z",
+          "ExpirationDate": "2022-10-24T22:31:12.139Z",
+          "Ordered": {
+            "Date": "2022-10-24T22:31:12.139Z",
+            "By": {
+              "Id": 0,
+              "FirstName": "string",
+              "LastName": "string"
+            }
+          },
+          "Received": {
+            "Date": "2022-10-24T22:31:12.139Z",
+            "By": {
+              "Id": 0,
+              "FirstName": "string",
+              "LastName": "string"
+            }
+          },
+          "Completed": {
+            "Date": "2022-10-24T22:31:12.139Z",
+            "By": {
+              "Id": 0,
+              "FirstName": "string",
+              "LastName": "string"
+            }
+          }
+        }
+      ],
+      "BorrowerCreditScores": [
+        {
+          "BorrowerId": "00000000-0000-0000-0000-000000000000",
+          "CreditReportId": "00000000-0000-0000-0000-000000000000",
+          "Experian": 0,
+          "TransUnion": 0,
+          "Equifax": 0
+        }
+      ]
+    },
+    "FloodCertificateSecond": {
+      "IsSelected": true,
+      "Zone": "string",
+      "CommunityName": "string",
+      "CommunityParticipationFip": true
+    }
+  },
+  "Underwriting": {
+    "Footnote": "string",
+    "ApprovalDate": "2022-10-24T22:31:12.139Z",
+    "ExpirationDate": "2022-10-24T22:31:12.139Z",
+    "ActionTakenDate": "2022-10-24T22:31:12.139Z",
+    "ReasonForDenialExplanation": "string",
+    "ActionTaken": {
+      "Name": "string",
+      "Id": 0
+    },
+    "Items": [
+      {
+        "Condition": "string",
+        "IsImportant": true,
+        "Note": "string",
+        "Step": {
+          "Name": "string",
+          "Id": 0
+        },
+        "ObjectName": "string",
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "ConditionType": {
+          "Id": 0,
+          "Name": "string"
+        },
+        "UwConditionNumber": 0,
+        "LoanSubject": {
+          "Name": "string",
+          "Id": 0
+        }
+      }
+    ],
+    "OfficialNote": "string",
+    "InternalNote": "string",
+    "IsPreQualification": true,
+    "UwReasonForDenialFks": [
+      0
+    ],
+    "UnderwritingHistory": [
+      {
+        "User": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        },
+        "Action": {
+          "Name": "string",
+          "Id": 0
+        },
+        "Created": "2022-10-24T22:31:12.139Z",
+        "ReviewRequest": {
+          "OpenConditionsCount": 0,
+          "TotalConditionsCount": 0,
+          "ReadyToReviewConditionsCount": 0,
+          "ApprovedConditionsCount": 0,
+          "Phase": {
+            "Name": "string",
+            "Id": 0
+          }
+        }
+      }
+    ]
+  },
+  "FinancialAssessment": {
+    "IsPropertyChargePaymentHistoryAcceptable": true,
+    "IsCreditHistoryAcceptable": true,
+    "CalculatedFullLesa": 0,
+    "LesaDecisionName": "string",
+    "Lesa": 0,
+    "FirstYearLesaDisbursement": 0,
+    "GrossIncome": 0,
+    "HouseholdSize": 0,
+    "LifeExpectancy": 0,
+    "LesaDecision": {
+      "Name": "string",
+      "Id": 0
+    },
+    "RealEstateOwned": {
+      "RealEstates": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "IncomeItemId": "00000000-0000-0000-0000-000000000000",
+          "MarketValue": 0,
+          "MonthlyRentalIncome": 0,
+          "NetEquity": 0,
+          "PropertyType": {
+            "Name": "string",
+            "Id": 0
+          },
+          "Status": {
+            "Name": "string",
+            "Id": 0
+          },
+          "Address": {
+            "Address1": "string",
+            "Address2": "string",
+            "Zip": "string",
+            "City": "string",
+            "StateFk": "string",
+            "Zip4": "string"
+          }
+        }
+      ]
+    },
+    "AssetsAndIncome": {
+      "AssetDissipationItems": [
+        {
+          "ShortId": "string",
+          "SortOrder": 0,
+          "OwnerIdList": [
+            "00000000-0000-0000-0000-000000000000"
+          ],
+          "IsTaxable": true,
+          "AccountValue": 0,
+          "FundsNeededToClose": 0,
+          "NetAccountValue": 0,
+          "IncomeToValueRatio": 0,
+          "TaxRate": 0,
+          "isDeleted": true,
+          "DiscountedNetAccountValue": 0,
+          "MonthlyIncome": 0,
+          "Institution": "string",
+          "NameOrNumber": "string",
+          "Since": "2022-10-24T22:31:12.139Z",
+          "Until": "2022-10-24T22:31:12.139Z",
+          "IsCurrentEmployment": true,
+          "Footnote": "string",
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "ContactPersonOfInstitution": {
+            "FirstName": "string",
+            "LastName": "string",
+            "Function": "string",
+            "FullName": "string",
+            "Communication": {
+              "Phone": "string",
+              "PhoneExt": "string",
+              "Mobile": "string",
+              "Email": "string"
+            }
+          },
+          "AddressOfInstitution": {
+            "Address1": "string",
+            "Address2": "string",
+            "Zip": "string",
+            "City": "string",
+            "StateFk": "string",
+            "Zip4": "string"
+          },
+          "AssetIncomeTypeEnum": {
+            "Name": "string",
+            "Id": 0
+          }
+        }
+      ]
+    },
+    "LiabilityAndExpense": {
+      "LiabilityExpenseItems": [
+        {
+          "OwnerIdList": [
+            "00000000-0000-0000-0000-000000000000"
+          ],
+          "ShortId": "string",
+          "isPropertyCharge": true,
+          "MonthlyCharge": 0,
+          "Balance": 0,
+          "HighBalance": 0,
+          "ExcludeFromFACalculation": true,
+          "PayoffId": "00000000-0000-0000-0000-000000000000",
+          "IsOffsetByHecm": true,
+          "ChargeToBalanceFactor": 0,
+          "LiabilityExpenseTypeId": 0,
+          "isDeleted": true,
+          "CreditorName": "string",
+          "AccountNameOrNumber": "string",
+          "Since": "2022-10-24T22:31:12.139Z",
+          "ReportedBy": "string",
+          "LastReported": "2022-10-24T22:31:12.139Z",
+          "Employer": "string",
+          "Footnote": "string",
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "RealEstateReferred": {
+            "Name": "string",
+            "Id": 0
+          },
+          "MortgageType": {
+            "Name": "string",
+            "Id": 0
+          },
+          "CreditType": {
+            "Name": "string",
+            "Id": 0
+          },
+          "ContactPersonOfAccountHolder": {
+            "FirstName": "string",
+            "LastName": "string",
+            "Function": "string",
+            "FullName": "string",
+            "Communication": {
+              "Phone": "string",
+              "PhoneExt": "string",
+              "Mobile": "string",
+              "Email": "string"
+            }
+          },
+          "AddressOfInstitution": {
+            "Address1": "string",
+            "Address2": "string",
+            "Zip": "string",
+            "City": "string",
+            "StateFk": "string",
+            "Zip4": "string"
+          },
+          "Delinquency": {
+            "Past12Months": 0,
+            "Past24Months": 0,
+            "Total": 0
+          },
+          "LatePayment": {
+            "Months12Days30": 0,
+            "Months12Days60": 0,
+            "Months12Days90": 0,
+            "Months24Days30": 0,
+            "Months24Days60": 0,
+            "Months24Days90": 0,
+            "Total": 0
+          },
+          "IsCurrent": true,
+          "InPlaceForAtLeast12Months": true,
+          "LiabilityExpenseTypeEnum": {
+            "Name": "string",
+            "Id": 0
+          }
+        }
+      ]
+    },
+    "OtherCompensatingFactorList": [
+      {
+        "ShortId": "string",
+        "IsDeleted": true,
+        "DocumentIds": [
+          "00000000-0000-0000-0000-000000000000"
+        ],
+        "Footnote": "string",
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "CompensatingFactorType": {
+          "Name": "string",
+          "Id": 0
+        }
+      }
+    ],
+    "ExtenuatingCircumstanceList": [
+      {
+        "Description": "string",
+        "ShortId": "string",
+        "IsDeleted": true,
+        "Footnote": "string",
+        "Id": "00000000-0000-0000-0000-000000000000"
+      }
+    ]
+  },
+  "Miscellaneous": {
+    "LoanPurposeDetails": {
+      "AdditionalIncome": true,
+      "HomeImprovements": true,
+      "PaymentOfTaxes": true,
+      "PaymentOfInsurance": true,
+      "Leisure": true,
+      "Medical": true,
+      "Other": true,
+      "OtherDescription": "string",
+      "ExtinguishForwardMortgage": true
+    }
+  },
+  "Payoffs": {
+    "MandatoryPayoff": 0,
+    "NonMandatoryPayoff": 0,
+    "FinalBalance": 0,
+    "Payoffs": [
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "ExpenseItemId": "00000000-0000-0000-0000-000000000000",
+        "IsDeleted": true,
+        "SortOrder": 0,
+        "PerDiemAmount": 0,
+        "PayoffGoodThrough": "2022-10-24T22:31:12.139Z",
+        "ValidUntilDate": "2022-10-24T22:31:12.139Z",
+        "FinalBalance": 0,
+        "PerDiemDays": 0,
+        "Since": "2022-10-24T22:31:12.139Z",
+        "IsMandatoryObligation": true,
+        "PayoffType": {
+          "Name": "string",
+          "Id": 0
+        },
+        "CreditorName": "string",
+        "AccountNameOrNumber": "string",
+        "Balance": 0
+      }
+    ]
+  },
+  "Repairs": {
+    "Repairs": [
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "WorkDescription": "string",
+        "EstimatedBy": "string",
+        "EstimateAmount": 0,
+        "SetAsideAmount": 0
+      }
+    ]
+  },
+  "Product": {
+    "Id": 0,
+    "Name": "string",
+    "Abbreviation": "string",
+    "RateIndex": {
+      "Id": 0,
+      "Name": "string"
+    },
+    "FlavorId": 0
+  },
+  "ProductType": {
+    "Id": 0,
+    "Name": "string"
+  },
+  "ProductTypeGroup": {
+    "Id": 0,
+    "Name": "string"
+  },
+  "LoanPurpose": {
+    "Name": "string",
+    "Id": 0
+  },
+  "Milestones": {
+    "Items": [
+      {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "TemplateId": 0,
+        "StartDate": "2022-10-24T22:31:12.139Z",
+        "ExpectedCompletionDate": "2022-10-24T22:31:12.139Z",
+        "ActualCompletionDate": "2022-10-24T22:31:12.139Z",
+        "AssignmentDate": "2022-10-24T22:31:12.139Z",
+        "Name": "string",
+        "Type": {
+          "Name": "string",
+          "Id": 0
+        },
+        "Assignee": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        },
+        "AssignedBy": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        },
+        "IsActive": true
+      }
+    ],
+    "LastAchivedMilestone": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "TemplateId": 0,
+      "StartDate": "2022-10-24T22:31:12.139Z",
+      "ExpectedCompletionDate": "2022-10-24T22:31:12.139Z",
+      "ActualCompletionDate": "2022-10-24T22:31:12.139Z",
+      "AssignmentDate": "2022-10-24T22:31:12.139Z",
+      "Name": "string",
+      "Type": {
+        "Name": "string",
+        "Id": 0
+      },
+      "Assignee": {
+        "Id": 0,
+        "FirstName": "string",
+        "LastName": "string"
+      },
+      "AssignedBy": {
+        "Id": 0,
+        "FirstName": "string",
+        "LastName": "string"
+      },
+      "IsActive": true
+    }
+  },
+  "Accounting": {
+    "ActualFundingDate": "2022-10-24T22:31:12.139Z",
+    "WireAmountToSettlementAgent": 0,
+    "Upb": 0,
+    "OriginationFeeToLender": 0,
+    "OriginationFeeToBroker": 0,
+    "TotalLenderCreditsAndCures": 0,
+    "BrokerCompensation": 0,
+    "NetBrokerCompensation": 0,
+    "FinancedClosingCostsHud1Page2": 0,
+    "OtherLenderExpenses": 0
+  },
+  "LoanUsers": {
+    "LoanOfficerId": 0,
+    "LoanOfficerFirstName": "string",
+    "LoanOfficerLastName": "string",
+    "LoanOfficerCompany": "string",
+    "LoanOfficerBranchOffice": "string",
+    "ProcessorId": 0,
+    "ProcessorFirstName": "string",
+    "ProcessorLastName": "string",
+    "UnderwriterId": 0,
+    "UnderwriterFirstName": "string",
+    "UnderwriterLastName": "string",
+    "CloserId": 0,
+    "CloserFirstName": "string",
+    "CloserLastName": "string",
+    "FunderId": 0,
+    "FunderFirstName": "string",
+    "FunderLastName": "string",
+    "LoanOfficerNMLSNumber": "string",
+    "UnderwriterChumsNumber": "string",
+    "LoanOfficerEmail": "string",
+    "LoanOfficerBranchNMLSNumber": "string",
+    "LoanOfficerBranchOfficeCode": "string",
+    "CollateralUnderwriterId": 0,
+    "CollateralUnderwriterFirstName": "string",
+    "CollateralUnderwriterLastName": "string",
+    "CollateralUnderwriterChumsNumber": "string"
+  },
+  "ChannelType": {
+    "Name": "string",
+    "Id": 0
+  },
+  "SaleTransaction": {
+    "SellerCompany": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "BuyerServiceProvider": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "BuyerCompany": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "PurchaseCalculation": {
+      "Price": 0,
+      "PremiumCalculated": 0,
+      "PremiumAdjusted": 0,
+      "UpbBeforePurchase": 0,
+      "UpbDateBeforePurchase": "2022-10-24T22:31:12.139Z",
+      "WireAmountCalculated": 0,
+      "ActualWireAmount": 0,
+      "UpbAtPurchase": 0,
+      "PurchaseItems": [
+        {
+          "Name": "string",
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "Date": "2022-10-24T22:31:12.139Z",
+          "Amount": 0,
+          "Type": {
+            "Type": {
+              "Name": "string",
+              "Id": 0
+            }
+          }
+        }
+      ]
+    },
+    "PurchaseDate": "2022-10-24T22:31:12.139Z",
+    "ActualPurchaseDate": "2022-10-24T22:31:12.139Z",
+    "IsRejected": true,
+    "BuyerWarehouseLender": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "BuyerDocumentCustodian": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "Milestones": {
+      "Items": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "TemplateId": 0,
+          "StartDate": "2022-10-24T22:31:12.139Z",
+          "ExpectedCompletionDate": "2022-10-24T22:31:12.139Z",
+          "ActualCompletionDate": "2022-10-24T22:31:12.139Z",
+          "AssignmentDate": "2022-10-24T22:31:12.139Z",
+          "Name": "string",
+          "Type": {
+            "Name": "string",
+            "Id": 0
+          },
+          "Assignee": {
+            "Id": 0,
+            "FirstName": "string",
+            "LastName": "string"
+          },
+          "AssignedBy": {
+            "Id": 0,
+            "FirstName": "string",
+            "LastName": "string"
+          },
+          "IsActive": true
+        }
+      ],
+      "LastAchivedMilestone": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "TemplateId": 0,
+        "StartDate": "2022-10-24T22:31:12.139Z",
+        "ExpectedCompletionDate": "2022-10-24T22:31:12.139Z",
+        "ActualCompletionDate": "2022-10-24T22:31:12.139Z",
+        "AssignmentDate": "2022-10-24T22:31:12.139Z",
+        "Name": "string",
+        "Type": {
+          "Name": "string",
+          "Id": 0
+        },
+        "Assignee": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        },
+        "AssignedBy": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        },
+        "IsActive": true
+      }
+    },
+    "SellerWarehouseLender": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "PostClosingDocTracking": {
+      "FirstSecurityInstrument": {
+        "ReceivedDate": "2022-10-24T22:31:12.139Z",
+        "ScannedDate": "2022-10-24T22:31:12.139Z"
+      },
+      "SecondSecurityInstrument": {
+        "ReceivedDate": "2022-10-24T22:31:12.139Z",
+        "ScannedDate": "2022-10-24T22:31:12.139Z"
+      },
+      "TitlePolicy": {
+        "ReceivedDate": "2022-10-24T22:31:12.139Z",
+        "ScannedDate": "2022-10-24T22:31:12.139Z"
+      },
+      "Notes": "string"
+    },
+    "AccountExecutive": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "SharedAttachmentIdList": [
+      "00000000-0000-0000-0000-000000000000"
+    ]
+  },
+  "PurchaseTransaction": {
+    "SellerCompany": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "BuyerServiceProvider": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "BuyerCompany": {
+      "Id": 0,
+      "Name": "string",
+      "Abbreviation": "string",
+      "NMLSNumber": "string"
+    },
+    "PurchaseCalculation": {
+      "Price": 0,
+      "PremiumCalculated": 0,
+      "PremiumAdjusted": 0,
+      "UpbBeforePurchase": 0,
+      "UpbDateBeforePurchase": "2022-10-24T22:31:12.139Z",
+      "WireAmountCalculated": 0,
+      "ActualWireAmount": 0,
+      "UpbAtPurchase": 0,
+      "PurchaseItems": [
+        {
+          "Name": "string",
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "Date": "2022-10-24T22:31:12.140Z",
+          "Amount": 0,
+          "Type": {
+            "Type": {
+              "Name": "string",
+              "Id": 0
+            }
+          }
+        }
+      ]
+    },
+    "PurchaseDate": "2022-10-24T22:31:12.140Z",
+    "ActualPurchaseDate": "2022-10-24T22:31:12.140Z",
+    "IsRejected": true,
+    "BuyerWarehouseLender": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "BuyerDocumentCustodian": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "Milestones": {
+      "Items": [
+        {
+          "Id": "00000000-0000-0000-0000-000000000000",
+          "TemplateId": 0,
+          "StartDate": "2022-10-24T22:31:12.140Z",
+          "ExpectedCompletionDate": "2022-10-24T22:31:12.140Z",
+          "ActualCompletionDate": "2022-10-24T22:31:12.140Z",
+          "AssignmentDate": "2022-10-24T22:31:12.140Z",
+          "Name": "string",
+          "Type": {
+            "Name": "string",
+            "Id": 0
+          },
+          "Assignee": {
+            "Id": 0,
+            "FirstName": "string",
+            "LastName": "string"
+          },
+          "AssignedBy": {
+            "Id": 0,
+            "FirstName": "string",
+            "LastName": "string"
+          },
+          "IsActive": true
+        }
+      ],
+      "LastAchivedMilestone": {
+        "Id": "00000000-0000-0000-0000-000000000000",
+        "TemplateId": 0,
+        "StartDate": "2022-10-24T22:31:12.140Z",
+        "ExpectedCompletionDate": "2022-10-24T22:31:12.140Z",
+        "ActualCompletionDate": "2022-10-24T22:31:12.140Z",
+        "AssignmentDate": "2022-10-24T22:31:12.140Z",
+        "Name": "string",
+        "Type": {
+          "Name": "string",
+          "Id": 0
+        },
+        "Assignee": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        },
+        "AssignedBy": {
+          "Id": 0,
+          "FirstName": "string",
+          "LastName": "string"
+        },
+        "IsActive": true
+      }
+    },
+    "SellerWarehouseLender": {
+      "Id": "00000000-0000-0000-0000-000000000000",
+      "Name": "string"
+    },
+    "PostClosingDocTracking": {
+      "FirstSecurityInstrument": {
+        "ReceivedDate": "2022-10-24T22:31:12.140Z",
+        "ScannedDate": "2022-10-24T22:31:12.140Z"
+      },
+      "SecondSecurityInstrument": {
+        "ReceivedDate": "2022-10-24T22:31:12.140Z",
+        "ScannedDate": "2022-10-24T22:31:12.140Z"
+      },
+      "TitlePolicy": {
+        "ReceivedDate": "2022-10-24T22:31:12.140Z",
+        "ScannedDate": "2022-10-24T22:31:12.140Z"
+      },
+      "Notes": "string"
+    },
+    "AccountExecutive": {
+      "Id": 0,
+      "FirstName": "string",
+      "LastName": "string"
+    },
+    "SharedAttachmentIdList": [
+      "00000000-0000-0000-0000-000000000000"
+    ]
+  },
+  "QualityControl": {
+    "PreClosingQcStatus": {
+      "Name": "string",
+      "Id": 0
+    },
+    "PostClosingQcStatus": {
+      "Name": "string",
+      "Id": 0
+    }
+  },
+  "PostClosing": {
+    "Mip": {
+      "PaymentDate": "2022-10-24T22:31:12.140Z",
+      "LateFee": 0,
+      "Notes": "string"
+    },
+    "FhaInsuranceApplication": {
+      "CompletedDate": "2022-10-24T22:31:12.140Z"
+    },
+    "PostClosingDocTracking": {
+      "FirstSecurityInstrument": {
+        "ReceivedDate": "2022-10-24T22:31:12.140Z",
+        "ScannedDate": "2022-10-24T22:31:12.140Z"
+      },
+      "SecondSecurityInstrument": {
+        "ReceivedDate": "2022-10-24T22:31:12.140Z",
+        "ScannedDate": "2022-10-24T22:31:12.140Z"
+      },
+      "TitlePolicy": {
+        "ReceivedDate": "2022-10-24T22:31:12.140Z",
+        "ScannedDate": "2022-10-24T22:31:12.140Z"
+      },
+      "Notes": "string"
+    },
+    "CaseBinderAndMic": {
+      "SubmittedDate": "2022-10-24T22:31:12.140Z",
+      "RejectionDate": "2022-10-24T22:31:12.140Z",
+      "ReSubmissionDate": "2022-10-24T22:31:12.140Z",
+      "MicReceivedDate": "2022-10-24T22:31:12.140Z",
+      "Notes": "string"
+    }
+  },
+  "DynamicData": {}
+}
